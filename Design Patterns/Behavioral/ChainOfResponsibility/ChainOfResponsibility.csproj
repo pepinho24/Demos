@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeveloperTeams\DeveloperTeam.cs" />
+    <Compile Include="DeveloperTeams\DeveloperTeamFactory.cs" />
+    <Compile Include="DeveloperTeams\IDeveloperTeamFactory.cs" />
+    <Compile Include="DeveloperTeams\JuniorDeveloperTeam.cs" />
+    <Compile Include="DeveloperTeams\RegularDeveloperTeam.cs" />
+    <Compile Include="DeveloperTeams\SeniorDeveloperTeam.cs" />
+    <Compile Include="SoftwareRequest.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
