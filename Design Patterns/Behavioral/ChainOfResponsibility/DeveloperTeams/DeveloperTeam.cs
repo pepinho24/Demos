@@ -1,7 +1,7 @@
 ﻿namespace ChainOfResponsibility.DeveloperTeams
 {
     /// <summary>
-    /// The 'Handler' abstract class
+    /// The 'Handler' abstract class.
     /// </summary>    
     internal abstract class DeveloperTeam
     {
