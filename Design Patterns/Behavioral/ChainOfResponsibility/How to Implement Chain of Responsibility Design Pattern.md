@@ -19,6 +19,7 @@
 
 ## How to handle the request 
 In the Main method:
+
 1. create requests
 2. create new handler factory
 3. create a handler (by calling the method of the factory)
