@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace ChainOfResponsibility
+﻿namespace ChainOfResponsibility
 {
+    using System;
+
     /// <summary>
     /// Class holding request details.
     /// </summary>
@@ -20,7 +20,11 @@ namespace ChainOfResponsibility
 
         public ushort Difficulty
         {
-            get { return this.difficulty; }
+            get
+            {
+                return this.difficulty;
+            }
+
             set
             {
                 if (value < MinimumDifficultyConstant || value > MaximumDifficultyConstant)

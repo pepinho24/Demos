@@ -1,14 +1,15 @@
 ﻿namespace ChainOfResponsibility
 {
-    using ChainOfResponsibility.DeveloperTeams;
     using System;
     using System.Collections.Generic;
+    using ChainOfResponsibility.DeveloperTeams;
 
     public class Startup
     {
         public static void Main()
         {
-            var requests = new List<SoftwareRequest> {
+            var requests = new List<SoftwareRequest>
+            {
                 new SoftwareRequest(1, "Easy task"),
                 new SoftwareRequest(3, "Normal task"),
                 new SoftwareRequest(5, "Difficult task"),
